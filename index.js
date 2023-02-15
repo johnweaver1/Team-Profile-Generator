@@ -7,7 +7,7 @@ teamArray = [];
 
 function start() {
     function addMember() {
-        inquirer.createPromptModule([
+        inquirer.prompt([
             {
                 type: 'imput',
                 name: 'name',
@@ -17,7 +17,7 @@ function start() {
                 type: 'list',
                 name: 'position',
                 message: 'Enter position of employee',
-                choices: ["Manager", "Engineer", ""]
+                choices: ["Manager", "Engineer", "Intern"]
             }
         ]).then(function(input){
             switch(input.position) {
