@@ -15,6 +15,7 @@
   clone the repo and run node index after npm i
   ## Usage
   USe for any work scenario with employee info!
+  https://watch.screencastify.com/v/rJRPSPadFOqZBG3WgVZ2
   ## Contribution
   N/A
   ## Tests
